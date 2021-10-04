@@ -1,0 +1,14 @@
+.navbar-main-container{
+    background-color: #8980ea;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2vh;
+}
+.title{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
