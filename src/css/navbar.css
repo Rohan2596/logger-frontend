@@ -7,8 +7,12 @@
     justify-content: flex-start;
     align-items: center;
     padding: 2vh;
+    column-gap: 1vh;
 }
 .title{
     color: white;
     font-family: 'Poppins', sans-serif;
+}
+.material-icons{
+    color: white;
 }
