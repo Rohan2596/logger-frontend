@@ -1,0 +1,21 @@
+.viewbox-main-container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1vh;
+    row-gap: 1vh;
+}
+.logger-message-container{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 1vh;
+    background-color: whitesmoke;
+    
+}
+.log-timestamp,.log-message{
+    color: black;
+    text-align: start ;
+
+}
