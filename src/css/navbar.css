@@ -9,10 +9,40 @@
     padding: 2vh;
     column-gap: 1vh;
 }
+.navbar-container{
+    display: flex;
+    /* position: relative; */
+    
+}
 .title{
     color: white;
     font-family: 'Poppins', sans-serif;
 }
 .material-icons{
     color: white;
+}
+.sideBar-container{
+    z-index: 1; /* Stay on top */
+    background-color: #c4c0f5 ;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    row-gap: 1vh;
+
+}
+.close-icon{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: xx-large;
+}
+.project-name{
+    display: flex;
+    margin-left: 10%;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
