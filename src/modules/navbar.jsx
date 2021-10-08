@@ -15,14 +15,14 @@ function Navbar() {
        return(
      <div className="navbar-container">   
      <div id="sideBar-container" className="sideBar-container">
-     <span className="material-icons close-icon" onClick={()=>closeSideNav()}>close</span>
+     <span className="material-icons close-icon" onClick={()=>closeSideNav()}>cancel</span>
 
          <div className="project-name" >Project Name</div>
          <div className="menu" ><span class="material-icons">dashboard</span>Dashboard</div>
      </div>
  
      <div className="navbar-main-container">
-         <span className="material-icons" onClick={()=>openSideNav()}>segment</span>
+         <span className="material-icons menu nav" onClick={()=>openSideNav()}>segment</span>
          <span className="title" >Logger Platfrom</span>
      </div>
          </div>

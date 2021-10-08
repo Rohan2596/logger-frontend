@@ -15,7 +15,7 @@ function User() {
            <div className="auth-image-container"></div>
            <div className="auth-input-container">
 
-           <img alt="avatar" src="https://img.icons8.com/color/96/000000/circled-user-male-skin-type-3--v2.png"/>
+           <img alt="avatar" src="https://img.icons8.com/color/108/000000/circled-user-male-skin-type-3--v2.png"/>
            <input className="username" type="text" placeholder="What's your username?"></input>
            <input className="password" type="text" placeholder="What's your password?"></input>
            <div className="sign-in" onClick={()=>submit()}>Sign In</div>
