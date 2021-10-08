@@ -15,7 +15,7 @@ function Navbar() {
        return(
      <div className="navbar-container">   
      <div id="sideBar-container" className="sideBar-container">
-     <span class="material-icons close-icon" onClick={()=>closeSideNav()}>close</span>
+     <span className="material-icons close-icon" onClick={()=>closeSideNav()}>close</span>
 
          <div className="project-name" >Project Name</div>
          <div className="menu" ><span class="material-icons">dashboard</span>Dashboard</div>

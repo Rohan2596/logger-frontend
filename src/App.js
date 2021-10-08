@@ -6,9 +6,12 @@ import Dashboard from './pages/dashboard';
 function App() {
   return (
     <div className="App">
-       <User/>
+      
      <BrowserRouter>
-     <Route path="/dashboard" component= {Dashboard}/>
+     <Switch>
+     <Route exact path="/" component={User}></Route>
+     <Route  path="/dashboard"><Dashboard/></Route>
+     </Switch>
     
      </BrowserRouter> 
     
