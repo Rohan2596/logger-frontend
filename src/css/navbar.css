@@ -8,6 +8,7 @@
     align-items: center;
     padding: 2vh;
     column-gap: 1vh;
+    
 }
 .navbar-container{
     display: flex;
@@ -17,9 +18,11 @@
 .title{
     color: white;
     font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 }
 .material-icons{
     color: white;
+    font-size: 14px;
 }
 .sideBar-container{
     z-index: 1; /* Stay on top */
@@ -37,16 +40,38 @@
     font-size: xx-large;
     margin-top: 0.5vh;
     margin-right: 0.5vh;
+    font-size: 14px;
 }
 .project-name{
     display: flex;
     margin-left: 10%;
     font-weight: bold;
+    font-size: 14px;
 }
 .menu{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 14px;
+    background-color:  #8980ea;
+}
+
+@media  screen  and (min-width:475px) {
+
+    .title,.material-icons,.close-icon,.project-name,.menu{
+        
+        font-size: 16px;
+    }
+    
+}
+@media  screen  and (min-width:1140px) {
+    .title,.material-icons,.close-icon,.project-name,.menu{
+        
+        font-size: 18px;
+    }
+    
+    
+    
 }
 .nav{
     font-size: 24px;

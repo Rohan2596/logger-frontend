@@ -1,21 +1,60 @@
 .viewbox-main-container{
-    
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding: 1vh;
     row-gap: 1vh;
+    align-items: center;
+  
+    
+    
+}
+.viewbox-main-container::-webkit-scrollbar{
+    overflow-y: auto;
 }
 .logger-message-container{
-    flex-direction: column;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
     justify-content: flex-start;
-    align-items: start;
-    padding: 1vh;
-    background-color: whitesmoke;
+    align-items: flex-start;
+    padding: 1%;
     
+    
+}
+.log-timestamp{
+    background-color: whitesmoke;
+    width: 30%;
+    border-right-style: dashed;
+    border-right-color: grey;
+}
+.log-message{
+    width: 70%;
+
 }
 .log-timestamp,.log-message{
     color: black;
     text-align: start ;
+    padding: 1%;
+    font-size: 14px;
 
+}
+@media  screen  and (min-width:475px) {
+
+ 
+    .log-timestamp,.log-message{
+        
+        font-size: 16px;
+    
+    }
+}
+@media  screen  and (min-width:1140px) {
+
+ 
+    .log-timestamp,.log-message{
+        
+        font-size: 18px;
+    
+    }
 }
